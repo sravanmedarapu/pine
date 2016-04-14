@@ -29,7 +29,7 @@ public class FullscreenActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_fullscreen);
 
-        LinearLayout layout = (LinearLayout) findViewById(R.id.fullscreen_content_controls);
+        FrameLayout layout = (FrameLayout) findViewById(R.id.fullscreen);
         layout.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
